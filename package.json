@@ -8,6 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "publishConfig": {
+            "registry": "http://34.207.85.255:8081/repository/frontend-npm-hosted/"
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.0.0",
